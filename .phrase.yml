@@ -1,0 +1,14 @@
+phrase:
+  host: https://api.us.app.phrase.com/v2
+  access_token: 13480cc807b19ebc4cee21fc70b9f5b2370ef85205e98cdc4528ad0f210b7f2e
+  project_id: dc37980e311cdb83ba1fe91a4df36f80
+  push:
+    sources:
+    - file: ./src/locales/<locale_name>/translations.json
+      params:
+        file_format: i18next_4
+  pull:
+    targets:
+    - file: ./src/locales/<locale_name>/translations.json
+      params:
+        file_format: i18next_4
